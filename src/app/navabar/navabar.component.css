@@ -1,0 +1,29 @@
+.brand{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    padding: 0px 30px;
+    cursor: pointer;
+}
+.link{
+    font-size: 18px;
+    font-weight:400px;
+    color: #000;
+    text-decoration: none;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.link:hover{
+    color: blue;
+}
+.cartCount{
+    font-size: 16px;
+    color: red;
+    font-weight: bold;
+}
+@media screen and (max-width:600px) {
+    .brand{
+        padding: 0px 10px;
+    }
+}
